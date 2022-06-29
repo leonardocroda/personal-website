@@ -1,0 +1,16 @@
+.top-bar{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    padding:  0;
+    color: white
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*rgb(77, 62, 252)*/
