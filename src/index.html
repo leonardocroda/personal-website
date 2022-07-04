@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="../public/assets/logo-favicon.png" />
   </head>
   <body>
     <!-- <header class="top-bar">
@@ -16,20 +16,22 @@
       />
       <p>Leo Croda Tecnologia</p>
     </header> -->
-    <div>
+    <div class="container">
       <div class="welcome-container">
         <div>
-          <img src="../public/assets/logo-favicon.png" />
+          <img class="logo" src="../public/assets/logo-favicon.svg" />
         </div>
         <div>
-          <p class="title">Olá!</p>
+          <h1>Olá!</h1>
           <p class="subtitle">
-            Eu sou o Leonardo Croda, <br />desenvolvedor fullstack
+            Eu sou Leonardo Croda, <br />desenvolvedor fullstack
           </p>
         </div>
       </div>
-      <div>
-        <p class="title">Skills</p>
+
+      <div class="skill-list-container">
+        <h1>Skills</h1>
+
         <ul>
           <li class="skill">
             <img
@@ -38,62 +40,67 @@
             />
             <p class="subtitle">TypeScript</p>
           </li>
-          <li><p class="subtitle">Javascript</p></li>
-          <li><p class="subtitle">Node.js</p></li>
-          <li><p class="subtitle">NestJS</p></li>
-          <li><p class="subtitle">React</p></li>
-          <li><p class="subtitle">ReactNative</p></li>
-          <li><p class="subtitle">AWS</p></li>
-          <li><p class="subtitle">Serverless</p></li>
-          <li><p class="subtitle">GIT</p></li>
+          <li class="skill">
+            <img
+              src="../public/assets/icons/javascript.svg"
+              class="skill-icons"
+            />
+            <p class="subtitle">JavaScript</p>
+          </li>
+          <li class="skill">
+            <img src="../public/assets/icons/java.svg" class="skill-icons" />
+            <p class="subtitle">Java</p>
+          </li>
+          <li class="skill">
+            <img src="../public/assets/icons/nodejs.svg" class="skill-icons" />
+            <p class="subtitle">Node.js</p>
+          </li>
+          <li class="skill">
+            <img src="../public/assets/icons/nest.svg" class="skill-icons" />
+            <p class="subtitle">NestJS</p>
+          </li>
+          <li class="skill">
+            <img
+              src="../public/assets/icons/spring-boot.png"
+              class="skill-icons"
+            />
+            <p class="subtitle">SpringBoot</p>
+          </li>
+          <li class="skill">
+            <img
+              src="../public/assets/icons/serverless.svg"
+              class="skill-icons"
+            />
+            <p class="subtitle">Serverless</p>
+          </li>
+
+          <li class="skill">
+            <img src="../public/assets/icons/react.svg" class="skill-icons" />
+            <p class="subtitle">React</p>
+          </li>
+          <li class="skill">
+            <img src="../public/assets/icons/react.svg" class="skill-icons" />
+            <p class="subtitle">ReactNative</p>
+          </li>
+          <li class="skill">
+            <img src="../public/assets/icons/aws.svg" class="skill-icons" />
+            <p class="subtitle">AWS</p>
+          </li>
+          <li class="skill">
+            <img src="../public/assets/icons/git.svg" class="skill-icons" />
+            <p class="subtitle">Git</p>
+          </li>
         </ul>
       </div>
 
-      <div>
-        <p>Experiência</p>
-        <ul>
-          <li>
-            <p>ContaSimples</p>
-            <p>
-              Cevadis im ampola pa arma uma pindureta.Per aumento de cachacis,
-              eu reclamis.A ordem dos tratores não altera o pão duris.Detraxit
-              consequat et quo num tendi nada.
-            </p>
-          </li>
-          <li>
-            <p>Saks</p>
-            <p>
-              Cevadis im ampola pa arma uma pindureta.Per aumento de cachacis,
-              eu reclamis.A ordem dos tratores não altera o pão duris.Detraxit
-              consequat et quo num tendi nada.
-            </p>
-          </li>
-          <li>
-            <p>Joinsy</p>
-            <p>
-              Cevadis im ampola pa arma uma pindureta.Per aumento de cachacis,
-              eu reclamis.A ordem dos tratores não altera o pão duris.Detraxit
-              consequat et quo num tendi nada.
-            </p>
-          </li>
-          <li>
-            <p>EQI</p>
-            <p>
-              Cevadis im ampola pa arma uma pindureta.Per aumento de cachacis,
-              eu reclamis.A ordem dos tratores não altera o pão duris.Detraxit
-              consequat et quo num tendi nada.
-            </p>
-          </li>
-        </ul>
+      <div class="form-container">
+        <h1>Fale Comigo</h1>
+        <input class="small" placeholder="Nome" />
+        <input class="small" placeholder="E-mail" />
+        <input class="small" placeholder="Assunto" />
+        <textarea class="large" placeholder="Mensagem"></textarea>
+        <button class="submit">Enviar</button>
       </div>
-    </div>
-
-    <div>
-      <p>Fale Comigo</p>
-      <input placeholder="Nome" />
-      <input placeholder="E-mail" />
-      <input placeholder="Assunto" />
-      <input placeholder="Mensagem" />
     </div>
   </body>
 </html>
