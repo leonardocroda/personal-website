@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+h1 {
+  font-size: 2.5rem;
+  color: #4d3efc;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+p {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #1e2024;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #1e2024;
+  margin: 0;
+  margin-bottom: 0.83em;
+}
+
+h3 {
+  text-align: center;
+  color: #1e2024;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: #4d3efc;
+  padding: 2.5rem 0;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  color: white;
+  height: 5rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 3rem;
+  width: auto;
+}
+
+.contact-button {
+  background-color: transparent;
+  border: solid 1px #4d3efc;
+  color: #4d3efc;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.about {
+  width: 100%;
+  background-color: #4d3efc;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0 10rem 0;
+}
+.about-text-container {
+  width: 60rem;
+}
+
+.hero-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20rem;
+}
+
+.rocket {
+  height: 100%;
+  width: auto;
+}
+
+.rocket-container {
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  width: 100%;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.skills {
+  margin-top: -5rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-column {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  background-color: #fff;
+  border: 1px solid rgba(30, 32, 36, 0.2);
+}
+
+.skill-column-left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right-width: 0px;
+}
+
+.skill-column-right {
+  border-left-width: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.skill-icon {
+  width: 48px;
+  height: 48px;
+  margin: 2rem auto;
+}
+
+.skill-description {
+  font-size: 1rem;
+}
+
+.companies-container {
+  padding: 8rem 0;
+}
+
+.companies-logo-container {
+  display: flex;
+  max-width: 60rem;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.company-logo {
+  display: flex;
+  height: 2.5rem;
+  width: auto;
+  padding: 2rem 0;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: 0 auto;
+  align-items: flex-end;
+  padding: 0;
+}
+
+.text-input {
+  margin: 0;
+  background-color: #988ffd;
+  border: 0;
+  height: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea.text-input {
+  height: 5rem;
+}
+
+.submit {
+  background-color: #fff;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 0;
+  color: #4d3efc;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 769px) {
+  .company-logo {
+    width: 50%;
+    justify-content: center;
+  }
+}

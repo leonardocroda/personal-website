@@ -3,104 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo Croda</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <!-- <link rel="stylesheet" href="styles/small-screens.css" /> -->
     <link rel="icon" href="../public/assets/logo-favicon.png" />
   </head>
   <body>
-    <!-- <header class="top-bar">
-      <img
-        src="../public/assets/logo-favicon.png"
-        width="36.8327402135"
-        height="30"
-      />
-      <p>Leo Croda Tecnologia</p>
-    </header> -->
-    <div class="container">
-      <div class="welcome-container">
-        <div>
-          <img class="logo" src="../public/assets/logo-favicon.svg" />
-        </div>
-        <div>
-          <h1>Olá!</h1>
-          <p class="subtitle">
-            Eu sou Leonardo Croda, <br />desenvolvedor fullstack
-          </p>
-        </div>
+    <header class="top-bar">
+      <img class="logo" src="../public/assets/logo-favicon.svg" />
+      <button class="contact-button">Contact me</button>
+    </header>
+    <div class="hero-container">
+      <div>
+        <h1>Full Stack Developer</h1>
+        <p class="subtitle">
+          I code beautifullly simple things, and I love what I do.
+        </p>
       </div>
+      <!-- <div>
+        <img src="../public/assets/logo-favicon.svg" />
+      </div> -->
+    </div>
+    <div class="rocket-container">
+      <img class="rocket" src="../public/assets/g10.svg" />
+    </div>
 
-      <div class="skill-list-container">
-        <h1>Skills</h1>
-
-        <ul>
-          <li class="skill">
-            <img
-              src="../public/assets/icons/typescript.svg"
-              class="skill-icons"
-            />
-            <p class="subtitle">TypeScript</p>
-          </li>
-          <li class="skill">
-            <img
-              src="../public/assets/icons/javascript.svg"
-              class="skill-icons"
-            />
-            <p class="subtitle">JavaScript</p>
-          </li>
-          <li class="skill">
-            <img src="../public/assets/icons/java.svg" class="skill-icons" />
-            <p class="subtitle">Java</p>
-          </li>
-          <li class="skill">
-            <img src="../public/assets/icons/nodejs.svg" class="skill-icons" />
-            <p class="subtitle">Node.js</p>
-          </li>
-          <li class="skill">
-            <img src="../public/assets/icons/nest.svg" class="skill-icons" />
-            <p class="subtitle">NestJS</p>
-          </li>
-          <li class="skill">
-            <img
-              src="../public/assets/icons/spring-boot.png"
-              class="skill-icons"
-            />
-            <p class="subtitle">SpringBoot</p>
-          </li>
-          <li class="skill">
-            <img
-              src="../public/assets/icons/serverless.svg"
-              class="skill-icons"
-            />
-            <p class="subtitle">Serverless</p>
-          </li>
-
-          <li class="skill">
-            <img src="../public/assets/icons/react.svg" class="skill-icons" />
-            <p class="subtitle">React</p>
-          </li>
-          <li class="skill">
-            <img src="../public/assets/icons/react.svg" class="skill-icons" />
-            <p class="subtitle">ReactNative</p>
-          </li>
-          <li class="skill">
-            <img src="../public/assets/icons/aws.svg" class="skill-icons" />
-            <p class="subtitle">AWS</p>
-          </li>
-          <li class="skill">
-            <img src="../public/assets/icons/git.svg" class="skill-icons" />
-            <p class="subtitle">Git</p>
-          </li>
-        </ul>
-      </div>
-
-      <div class="form-container">
-        <h1>Fale Comigo</h1>
-        <input class="small" placeholder="Nome" />
-        <input class="small" placeholder="E-mail" />
-        <input class="small" placeholder="Assunto" />
-        <textarea class="large" placeholder="Mensagem"></textarea>
-        <button class="submit">Enviar</button>
+    <div class="about">
+      <div class="about-text-container">
+        <h2 class="white-text">Lorem ipsum</h2>
+        <p class="white-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          mattis nisl at urna consequat, nec commodo sapien tincidunt. Donec ac
+          suscipit nibh. Cras vitae consequat nisl, nec bibendum orci. Praesent
+          at lorem lobortis, tincidunt elit et, auctor nunc.
+        </p>
       </div>
     </div>
+    <div class="skills">
+      <div class="skill-column skill-column-left">
+        <img class="skill-icon" src="../public/assets/backend.svg" />
+        <h2>Back-end</h2>
+        <p class="skill-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <h3>Technologies I use</h3>
+        <ul>
+          <li>Node.js</li>
+          <li>NestJS</li>
+          <li>SpringBoot</li>
+        </ul>
+      </div>
+      <div class="skill-column">
+        <img class="skill-icon" src="../public/assets/frontend.svg" />
+        <h2>Front-end</h2>
+        <p class="skill-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <h3>Technologies I use</h3>
+
+        <ul>
+          <li>React</li>
+          <li>ReactNative</li>
+        </ul>
+      </div>
+      <div class="skill-column skill-column-right">
+        <img class="skill-icon" src="../public/assets/general.svg" />
+
+        <h2>General</h2>
+        <p class="skill-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <h3>Technologies I use</h3>
+        <ul>
+          <li>Git</li>
+          <li>AWS</li>
+          <li>Serverless</li>
+          <li>CI/CD</li>
+        </ul>
+      </div>
+    </div>
+    <div class="companies-container">
+      <h2>I'm proud to have collaborated with some awesome companies:</h2>
+      <div class="companies-logo-container">
+        <div class="company-logo">
+          <img src="../public/assets/companies-logo/contasimples.svg" />
+        </div>
+        <div class="company-logo">
+          <img src="../public/assets/companies-logo/saks.png" />
+        </div>
+        <div class="company-logo">
+          <img src="../public/assets/companies-logo/joinsy.svg" />
+        </div>
+        <div class="company-logo">
+          <img src="../public/assets/companies-logo/euqueroinvestir.svg" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h2 class="white-text">Contact me</h2>
+      <div class="form-container">
+        <input class="text-input" placeholder="   Name" />
+        <input class="text-input" placeholder="   Email" />
+        <input class="text-input" placeholder="   Subject" />
+        <textarea class="text-input" placeholder="   Message"></textarea>
+        <button class="submit">Enviar</button>
+      </div>
+    </footer>
   </body>
 </html>
