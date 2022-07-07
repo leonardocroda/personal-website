@@ -96,7 +96,7 @@ img {
   display: flex;
   justify-content: center;
   height: 20rem;
-  width: 100%;
+  width: auto;
 }
 
 .white-text {
@@ -104,18 +104,21 @@ img {
 }
 
 .skills {
-  margin-top: -5rem;
   border-radius: 20px;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+  margin-top: -5rem;
+  flex-wrap: wrap;
 }
 
 .skill-column {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 20rem;
+  max-width: 15rem;
   background-color: #fff;
+  box-shadow: 0 5px rgba(233, 240, 243, 0.5);
   border: 1px solid rgba(30, 32, 36, 0.2);
 }
 
@@ -162,43 +165,31 @@ img {
   align-items: center;
 }
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 30rem;
+.social {
   margin: 0 auto;
-  align-items: flex-end;
-  padding: 0;
-}
-
-.text-input {
-  margin: 0;
-  background-color: #988ffd;
-  border: 0;
   height: 2rem;
-  width: 100%;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-  font-family: "Poppins", sans-serif;
-}
-
-textarea.text-input {
-  height: 5rem;
-}
-
-.submit {
-  background-color: #fff;
-  width: 10rem;
-  height: 2rem;
-  border-radius: 10px;
-  border: 0;
-  color: #4d3efc;
-  font-weight: bolder;
+  text-align: center;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 769px) {
   .company-logo {
     width: 50%;
     justify-content: center;
+  }
+
+  .rocket {
+    width: 100%;
+  }
+
+  .top-bar {
+    margin: 0 2rem;
+  }
+  .skill-column {
+    max-width: 100%;
+    border: 1px solid rgba(30, 32, 36, 0.2);
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1rem 0;
   }
 }
