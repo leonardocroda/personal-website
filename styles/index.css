@@ -164,6 +164,7 @@ img {
   margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .company-logo {
@@ -172,6 +173,11 @@ img {
   width: auto;
   padding: 2rem 0;
   align-items: center;
+}
+
+.saks {
+  height: 1.5rem;
+  width: auto;
 }
 
 .social {
