@@ -202,14 +202,17 @@ img {
     width: 100%;
   }
 
-  .top-bar {
-    margin: 0 2rem;
-  }
   .skill-column {
     max-width: 100%;
     border: 1px solid rgba(30, 32, 36, 0.2);
     padding: 1rem;
     border-radius: 20px;
     margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .top-bar {
+    margin: 0 2rem;
   }
 }
